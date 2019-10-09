@@ -109,5 +109,6 @@ function Ball(_x, _y, _diameter) {
 }
 
 function mouseClicked() {
-   location.reload()
+  if (inPlay==0){location.reload()}
+
 }
