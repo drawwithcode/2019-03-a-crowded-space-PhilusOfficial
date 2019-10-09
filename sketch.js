@@ -71,13 +71,13 @@ function Ball(_x, _y, _diameter) {
       yIncrease = -yIncrease
     }
 
-    if(this.x > width-230 && this.x <width-220 && this.y > mouseY-50 && this.y<mouseY+50) {
+    if(this.x > width-230 && this.x <width-200 && this.y > mouseY-50 && this.y<mouseY+50) {
       xIncrease = -xIncrease
       score += 1
     }
 
 
-    if(this.x < 230 && this.x >220 && this.y > mouseY-50 && this.y<mouseY+50) {
+    if(this.x < 230 && this.x >200 && this.y > mouseY-50 && this.y<mouseY+50) {
       xIncrease = -xIncrease
       score += 1
     }
